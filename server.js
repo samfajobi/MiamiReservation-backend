@@ -38,9 +38,9 @@ mongoose.connect(process.env.MONGODB_URL)
 .catch(() => console.log("Database Connection UnSuccessful!!!"));  
  
 
-// app.get("/", (req, res) => 
-//     res.send("You are Welcome Back")
-// });  
+app.get("/", (req, res) => 
+    res.send("You are Welcome Back")
+});  
  
 //app.use("/user", UserRoute);
  
